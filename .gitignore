@@ -1,0 +1,18 @@
+# Fichiers générés par l'IDE
+.vscode/
+.idea/
+
+# Fichiers temporaires
+*~
+
+# Fichiers de configuration spécifiques à l'IDE
+*.swp
+*.swo
+*.bak
+
+# Fichiers de compilation pour Arduino (si tu utilises l'IDE Arduino)
+*.bin
+*.hex
+*.elf
+*.d
+
