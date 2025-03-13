@@ -6,6 +6,7 @@ const char* ssid = "Galaxy A12F446";  // Mettre le ssid de votre réseau Wifi
 const char* password = "Jaidelacoetpastoi";   // Mettre le mot de passe de votre réseau Wifi
 WebServer server(80);  // Permet l'affichage de la page d'accueil
 
+
 void handleRoot() {
     server.send(200, "text/html", PAGE_HTML);
 }
