@@ -2,8 +2,8 @@
 #include <WebServer.h>
 #include "page_web.h"
 
-const char* ssid = "Galaxy A12F446";  // Mettre le ssid de votre réseau Wifi
-const char* password = "Jaidelacoetpastoi";   // Mettre le mot de passe de votre réseau Wifi
+const char* ssid = "";  // Mettre le ssid de votre réseau Wifi
+const char* password = "";   // Mettre le mot de passe de votre réseau Wifi
 WebServer server(80);  // Permet l'affichage de la page d'accueil
 
 void handleRoot() {
